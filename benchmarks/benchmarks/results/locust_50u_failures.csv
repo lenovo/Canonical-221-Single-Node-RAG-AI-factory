@@ -1,0 +1,4 @@
+Method,Name,Error,Occurrences
+GET,/v1/health,RemoteDisconnected('Remote end closed connection without response'),2
+POST,/v1/generate,CatchResponseError('Status 0: '),4
+POST,/v1/search,CatchResponseError('Status 0: '),1
